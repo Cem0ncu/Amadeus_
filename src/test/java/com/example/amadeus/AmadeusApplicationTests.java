@@ -1,4 +1,4 @@
-package com.example.Amadeus;
+package com.example.amadeus;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

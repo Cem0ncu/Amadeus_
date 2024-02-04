@@ -1,6 +1,7 @@
-package com.example.Amadeus.DTO;
+package com.example.amadeus.dto;
 
 import lombok.*;
+import org.antlr.v4.runtime.misc.NotNull;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -9,11 +10,8 @@ import lombok.*;
 @Getter
 @Setter
 public class AirportDTO {
-    ID
-    Kalkış havaalanı
-    Varış havaalanı
-    Kalkış tarih/saat
-    Dönüş tarih/saat
-            Fiyat
+    private Long id;
 
+    @NotNull
+    private String city;
 }
