@@ -15,9 +15,9 @@ import java.time.LocalDateTime;
 public class FlightDTO {
     private Long id;
     @NotNull
-    private Long departedAirport;
+    private Airport departedAirport;
     @NotNull
-    private Long destionationAirport;
+    private Airport destionationAirport;
     @NotNull
     private LocalDateTime departureDateTime;
     @NotNull
