@@ -4,6 +4,7 @@ import com.example.amadeus.dto.FlightDTO;
 import com.example.amadeus.entities.Flight;
 import org.mapstruct.Mapper;
 import org.mapstruct.MappingTarget;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 @Mapper(componentModel = "spring")
